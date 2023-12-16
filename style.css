@@ -1,0 +1,40 @@
+body {
+    font-size: 15pt;
+}
+
+html {
+  background-size: cover;
+  background-image: cover;
+} 
+
+a {
+  color: skyblue;
+  font-size: 1.50em;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+}
+
+header {
+  background-color: black;
+  height: 200px;
+  padding: 10px 50px;
+}
+
+ul {
+  color: red;
+  justify-content: space-between;
+  display: inline-block;
+  font-size: 25px;
+  margin-right: 50px;
+}
+
+a:hover {
+  color: darkgoldenrod;
+  resize: 10px;
+}
+
+.con {
+  align-items: center;
+  margin: 30px 120px;
+}
