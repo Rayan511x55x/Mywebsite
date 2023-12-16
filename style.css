@@ -38,3 +38,21 @@ a:hover {
   align-items: center;
   margin: 30px 120px;
 }
+
+audio {
+  border: 10px solid blue;
+  border-radius: 10px;
+  background-color: blue;
+}
+audio::-webkit-media-controls-panel {
+  background-color: #56AEFF;
+}
+
+audio::-webkit-media-controls-play-button {
+  background-color: #B1D4E0;
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-play-button:hover {
+  background-color: rgba(177,212,224, .7);
+}
