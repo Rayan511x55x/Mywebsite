@@ -1,21 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>𝐑𝐏𝐏 𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Tajawal', sans-serif;
+      text-align: center;
+      overflow-x: hidden;
+    }
+    header {
+      padding: 40px 20px 20px;
+    }
+    header h1 {
+      font-size: 2.2em;
+      margin: 10px 0;
+      color: #ffcc00;
+    }
+    header p {
+      font-size: 1.1em;
+      color: #ccc;
+      margin: 10px 0;
+    }
+    .section {
+      margin-top: 30px;
+    }
+    .cards-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: #111;
+      border: 1px solid #333;
+      border-radius: 15px;
+      padding: 20px;
+      width: 260px;
+      transition: 0.3s;
+    }
+    .card:hover {
+      background-color: #1a1a1a;
+      transform: translateY(-5px);
+      box-shadow: 0 0 15px #ffcc0033;
+    }
+    .card h2 {
+      color: #ffcc00;
+    }
+    .card p {
+      color: #bbb;
+    }
+    .join-button {
+      margin-top: 30px;
+      padding: 12px 25px;
+      background-color: #ffcc00;
+      color: #000;
+      font-size: 1.1em;
+      font-weight: bold;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .join-button:hover {
+      background-color: #e6b800;
+    }
+    footer {
+      background: #111;
+      margin-top: 50px;
+      padding: 30px 20px;
+      font-size: 0.9em;
+      color: #888;
+    }
+    .socials {
+      margin-top: 20px;
+    }
+    .socials a {
+      color: #ffcc00;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 1.2em;
+      transition: 0.3s;
+    }
+    .socials a:hover {
+      color: #fff;
+    }
+  </style>
 </head>
 <body>
- <header>
-   <nav>
-     <ul> اناشيد اسلامية</ul>
-       <a href="na2.html"> اناشيد هادئة</a>
-       <a href="na1.html"> اناشيد حماسية</a>
-   </nav>
- </header>
- 
-  <h1>hi just a web for nasheeds u can see in top the lists of nasheeds</h1>
+
+  <header>
+    <h1>𝐑𝐏𝐏 𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲</h1>
+    <p>شارات ديسكورد مجانية، سحوبات مميزة، وتجارب تجارة آمنة!</p>
+  </header>
+
+  <div class="section cards-container">
+    <div class="card">
+      <h2>شارات ديسكورد</h2>
+      <p>شارات ديسكورد حصرية ومجانية للجميع، انضم واستمتع الآن!</p>
+    </div>
+    <div class="card">
+      <h2>تجارة مضمونة</h2>
+      <p>تعاملات مبنية على الثقة والشفافية الكاملة لحماية جميع الأطراف.</p>
+    </div>
+    <div class="card">
+      <h2>كردت Probot</h2>
+      <p>وفر وقتك، اشترِ ملايين الكردت بسرعة وسهولة عبر خدماتنا.</p>
+    </div>
+    <div class="card">
+      <h2>سحوبات وجوائز</h2>
+      <p>شارك بالسحوبات الدورية وفز بجوائز حصرية مقدمة من فريقنا!</p>
+    </div>
+  </div>
+
+  <button class="join-button" onclick="window.open('https://discord.gg/QyDsmUPj', '_blank')">
+    انضم لنا الآن!
+  </button>
+
+  <footer>
+    <div>حساباتنا</div>
+    <div class="socials">
+      <a href="https://discord.com/users/dd7f" target="_blank">ديسكورد</a> |
+      <a href="https://www.tiktok.com/@rpp_c" target="_blank">تيك توك</a>
+    </div>
+    <div style="margin-top: 20px;">
+      &copy; 2025 𝐑𝐏𝐏 𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲 - جميع الحقوق محفوظة
+    </div>
+  </footer>
+
 </body>
 </html>
